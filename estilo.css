@@ -1,0 +1,36 @@
+@charset "UTF-8";
+head{
+    border-color: bisque;
+}
+
+
+nav#menu {
+    display: block;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 300px;
+}
+
+nav#menu li {
+    display: inline-block;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10px;
+    margin: 50px;
+    border-top: 2px solid lightblue;
+    border-bottom: 2px solid lightblue;
+    border-left: 2px solid lightblue;
+    border-right: 2px solid lightblue;
+    width: 800px;
+}
+
+
+div#interface p{
+    margin: 20px;
+}
